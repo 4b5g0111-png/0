@@ -7,10 +7,10 @@ int main(){
     string id="";
     cout << "input name: ";
     cin>>name;
-    cout <<"name is " << name << endl;
+    cout <<"name is" << name << endl;
     cout << "input  id:";
     cin >>id;
-    cout <<"id is " <<id<<endl;
+    cout <<"id is" <<id<<endl;
     cout <<"輸入一個數值:";
     cin >> n ;
     for (int i=1; i<=n ; i++){
