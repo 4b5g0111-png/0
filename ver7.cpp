@@ -19,4 +19,14 @@ int main(){
     }
     cout <<"The sum of 1 to "<<n<<" is "<<total;
     return 0;
+
+    //do while
+    i=1;
+    total =0;
+    do{
+        total+=i;
+        i++;
+    }while(i<=n);
+    cout <<"do while loop: The sum of 1 to "<<n<<" is "<<total;
+    return 0
 }
